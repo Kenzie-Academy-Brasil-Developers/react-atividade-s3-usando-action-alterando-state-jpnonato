@@ -18,7 +18,7 @@ const UserCard = () => {
     <div>
       <h1> Username: {result.name}</h1>
       <input value={inputValue} type="text" onChange={(e) => setInputValue(e.target.value)}/>
-      <button OnClick={handleClick}>Change</button>
+      <button onClick={handleClick}>Change</button>
     </div>
   )
 }

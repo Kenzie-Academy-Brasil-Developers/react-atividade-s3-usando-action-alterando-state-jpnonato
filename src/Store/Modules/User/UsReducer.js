@@ -5,8 +5,8 @@ const UsReducer = ( state = initialState, action ) => {
 
         switch (action.type) {
             case "CHANGE_NAME":
-                const {n} = action;
-                return {name: n};
+                 const { name } = action;
+                return {name: name};
         
             default:
                 return state ;
